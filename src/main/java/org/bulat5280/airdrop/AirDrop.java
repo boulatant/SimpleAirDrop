@@ -63,7 +63,6 @@ public final class AirDrop extends JavaPlugin {
                 }
                 pos.getBlock().setType(Material.CHEST);
                 Chest chest = (Chest) pos.getBlock().getState();
-                chest.getInventory().setItem(13, empty);
                 if (items.isEmpty()) {
                     chest.getInventory().setItem(13, empty);
                 } else {
