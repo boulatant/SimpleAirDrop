@@ -1,0 +1,13 @@
+name: AirDrop
+version: '${project.version}'
+main: org.bulat5280.airdrop.AirDrop
+commands:
+  add:
+    description: Добавляет предмет в руке в аирдроп
+    usage: /add
+  remove:
+    description: Удаляет предмет в руке из аирдропа
+    usage: /remove
+  clear:
+    description: Очищает аирдроп
+    usage: /clear
